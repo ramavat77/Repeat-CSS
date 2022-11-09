@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: heading;
+    src: url(font/Salt\ Debris.otf);
+}
+h1{
+    color: navy;
+    font-size: 24;
+    font-style: italic;
+    font-family: heading;
+    font-variant: small-caps;
+    text-align: center;
+    
+}
+
+p{
+    text-align: right;
+    
+}
