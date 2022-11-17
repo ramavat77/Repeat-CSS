@@ -1,0 +1,14 @@
+ul{
+    list-style-type: square;
+    font-size: xx-large;
+    color: gray;
+    list-style-position: outside;
+    list-style-image: url();
+}
+a{
+    background-color: aquamarine;
+}
+li{
+    background-color: blueviolet;
+    color: red;
+}

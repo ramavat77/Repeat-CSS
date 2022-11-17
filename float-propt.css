@@ -1,0 +1,22 @@
+.one{
+    height: 200px;
+    width: 200px;
+    float: right;
+    background-color: green;
+}
+
+.two{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    float: left;
+}
+
+.aaa{
+    height: 200px;
+    width: 200px;
+    background-image: url(images/Screenshot\ \(10\).png);
+    float: right;
+    background-position: center;
+    margin-top: 300px;
+}
