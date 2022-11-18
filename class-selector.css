@@ -1,0 +1,38 @@
+.one {
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    color:orangered;
+    border: 5px solid ;
+    display: inline;
+    float: left;
+    margin: 10px;
+    
+}
+
+p{
+    font-size: 20px;
+    font-variant-caps: petite-caps;
+    color: darkblue;
+    text-align: justify;
+}
+
+.two{
+    height: 300px;
+    width: 300px;
+    background-color: mediumvioletred;
+    border: 5px dotted blue;
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+
+.three{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border: 5px dashed goldenrod;
+    display: inline;
+    float: left;
+    margin: 10px;
+}
