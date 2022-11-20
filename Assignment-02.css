@@ -1,0 +1,34 @@
+
+.main{
+    height: 710px;
+    width: 700px;
+    border: 5px solid white;
+    background-color: red;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.head{
+    height: 40px;
+    border: 2px solid white;
+}
+
+.content{
+    height: 620px;
+    background-color: yellow;
+    border: 2px solid white;
+    
+}
+
+.A{
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.B{
+    position: relative;
+    float: right;
+    margin-top: 5px  ;
+    padding-right: 5px;
+}
