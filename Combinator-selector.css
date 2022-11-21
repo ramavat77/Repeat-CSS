@@ -1,0 +1,15 @@
+h1~h2{
+    color: goldenrod;
+}
+
+h1+h3{
+    color: blue;
+}
+
+h2>p>i{
+    color: red;
+}
+
+div h1{
+    color: greenyellow;
+}
