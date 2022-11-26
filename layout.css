@@ -1,0 +1,60 @@
+.main{
+     border: 2px solid greenyellow;
+     height: 800px;
+     width: 800px;
+     margin: auto;
+}
+
+.head{
+    height: 200px;
+    display: flex;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.heading{
+    background-color: darkgoldenrod;
+   height: 200px;
+    width: 600px;
+}
+
+.heading>h4{
+    text-align: center;
+}
+.menu{
+    height: 80px;
+    width: 600px;
+    background-color: yellowgreen;
+    margin-top: 80px;
+}
+
+.container{
+    height: 500px;
+    display: flex;
+    padding: auto;
+}
+
+.one{
+    width: 300px;
+    background-color: deeppink;
+}
+
+.two{
+    width: 200px;
+    background-color: dodgerblue;
+}
+
+.three{
+    width: 300px;
+    background-color: mediumvioletred;
+}
+
+.foot{
+    height: 100px;
+    width: 800px;
+    background-color: midnightblue;
+}
