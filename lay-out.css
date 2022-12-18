@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+
+    background-color: skyblue;
+    flex-grow: 1;
+    flex-shrink: 8;
+    padding: 10px;
+    text-align: center;
+
+}
+
+li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+li ul{
+    background-color: palevioletred;
+}
+
+aside{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: lightskyblue;
+}
+
+.mainsection{
+
+    flex-grow: 90;
+    flex-basis: 600px;
+    flex-shrink: 2;
+    padding: 20px;
+    justify-content: center;
+
+}
+#img1{
+    width: 150px;
+}
+
+menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border: solid lightblue;
+}
+
+.paragraph{
+    flex-basis: 600px;
+    text-align: justify;
+    flex-grow: 8;
+    padding: 10px;
+}
+
+img{
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#img2{
+    max-width: 200px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.left li{
+    margin-top: 20px;
+    border: 2px solid lightblue;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 0;
+    flex-grow: 1;
+}
+
+.details{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right input{
+      margin: 0px;
+      padding: 0px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+.login{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding-bottom: 10px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.logmenu{
+    border: solid lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.paragraph p{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#img1{
+    min-width: 200px;
+}
+aside h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+aside ul{
+    font-size: 25px;
+}

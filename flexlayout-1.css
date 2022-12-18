@@ -1,0 +1,108 @@
+main{
+    border: 5px solid darkmagenta;
+    height: 95vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: darkorange;
+    flex-grow: 1.5;
+    display: flex;
+}
+
+.logo{
+    background-color: maroon;
+    flex-grow: 1.5;
+}
+
+.heading{
+    background-color: orangered;
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-1{
+    background-color: darkblue;
+    flex-grow: 2;
+}
+
+.menu{
+    background-color: darkcyan;
+    flex-grow: 1;
+}
+
+section{
+    background-color: darkturquoise;
+    flex-grow: 6;
+    display: flex;
+}
+
+.one{
+    background-color: deeppink;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.a{
+    background-color: orange;
+    flex-grow: 1;
+}
+.b{
+    background-color: mediumspringgreen;
+    flex-grow: 1;
+}
+.c{
+    background-color: palevioletred;
+    flex-grow: 1;
+}
+.d{
+    background-color: chocolate;
+    flex-grow: 1;
+}
+
+.two{
+    background-color: green;
+    flex-grow: 2;
+    display: flex;
+}
+
+.box-1{
+    border: 3px double black;
+    background-color: yellow;
+    flex-grow: 1;
+}
+.box-2{
+    background-color: olivedrab;
+    border: 3px solid aqua;
+    flex-grow: 1;
+}
+.box-3{
+    background-color: lime;
+    border: 3px dotted purple;
+    flex-grow: 1;
+}
+
+.three{
+    background-color: darkred;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.image1{
+    background-color: darkred;
+    flex-grow: 1;
+}
+.image2{
+    background-color: darkturquoise;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: darkslategray;
+    flex-grow: 1;
+}
